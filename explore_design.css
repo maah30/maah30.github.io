@@ -1,0 +1,152 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #502929;
+    background-color: #e0d4d4;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #467c39;
+}
+
+a:hover 
+{
+    color: #a0b8ce;
+}
+
+/* Header Styles */
+
+header 
+{
+    background-color: #40a551;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li 
+{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+header nav a 
+{
+    color: #fff;
+}
+
+/* Main Content Styles */
+
+main 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+main h1 
+{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #527524;
+    font-weight: bold;
+}
+
+/* Section Styles */
+
+section 
+{
+    background-color: #dac59f;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 
+{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    color: #8d1713;
+    text-align: center;
+}
+
+section p 
+{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serifs;
+    margin-bottom: 10px;
+    color: #181313;
+}
+
+section ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section li 
+{
+    margin-bottom: 10px;
+}
+
+section strong 
+{
+    font-weight: bold;
+}
+
+footer a 
+{
+    color: #fff;
+}
+
+
+#backToTop 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #336b22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backToTop:hover
+{
+    background-color: #368042;
+}
+
+/* Municipality Image Styles */
+
+.river-image 
+{
+    width: 880px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}

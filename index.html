@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNICIPALITY OF TANGCAL </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- For Font Awesome Icons -->
+</head>
+<body>
+    <header>    
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME |</a></li>
+                <li><a href="about.html">ABOUT |</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <img src="tngcl.jpg" alt="Municipality Image" class="municipality-image">
+
+        <h1> MUNICIPALITY OF TANGCAL </h1>
+
+        <h6>
+            The municipality of Tangcal in Lanao del Norte is known for being a peaceful community where Muslims and Christians live together. The term "Tangcal" is Maranao and means "fortress".  
+        </h6>
+
+        
+
+        <div class="explore">   
+            
+            <button id="exploreButton" onclick="window.location.href='explore.html';"> EXPLORE >> </button>
+        </div>
+
+        <div class="mission-vision">
+            <p><a href="#mission">MISSION <i class="fas fa-arrow-down"></i></a></p> 
+            <p><a href="#vision">VISION/ CORE VALUES <i class="fas fa-arrow-down"></i></a></p> 
+        </div>
+
+        <br>
+        <div id="mission" class="section">
+            <h2> MISSION </h2>
+            <p>
+                <br> * To work for its total Socio-Economic development giving priority to Agricultural development, roads and bridges, water system, and lighting facilities. <br>
+                
+                * To provide the Municipality’s constituents with necessary access to basic social services; <br>
+                
+                * To provide full and unwavering support and cooperation to the different line agencies of the government who are working in the Municipality, and also to include the Non-Government Organizations (NGOs) in the municipality for the effective implementation of their programs and projects; <br>
+                
+                * To have Agri-Industrialization and Livelihood Skills Development in the municipality for employment generation to provide employment for the unemployed sectors in the municipality; and <br>
+                
+                * To create more Livelihood and Income-Generating Projects and extend regularly the necessary basic social services to the alleviation of poverty in the municipality. <br>
+                
+                * To be able to put into proper perspective of the socio-economic, political and administrative situation of the municipality. <br>
+                
+                * To re-aligned the Vision of the municipality and define its Mission for the next three (3) years term as guidepost of all its development, efforts; <br>
+                
+                * To adopt a unified set of interventions in the form of Local Development Investment Plans considered priority for the next three years; <br>
+                
+                * To act as a three years development blueprint of the municipality <br>
+                
+                ​</p>
+        </div>
+
+    
+        <div id="vision" class="section">
+            <h2> VISION </h2>
+            <p>
+                <br> THE MUNICIPALITY OF TANGCAL BY THE YEAR 2024, Tangcal is envisioned to evolve as self-reliant major agricultural  producer municipality, eco-tourism destination with  ecology conscious, God fearing and gender sensitive people living together in an Environmentally sound peaceful and Economically stable community towards equitable and sustainable development with transparent accountable and pro-active leadership committed to the principle of good governance.</p>
+
+                <br><br>
+                <h2> CORE VALUES </h2>
+            <p>
+                <br> Makadiyos, Makatao, Makakalikasan at Makabansa.</p>
+        </div>
+
+
+        <footer>
+            <div class="back-to-home" id="backToTop" style="display:none;">
+                <a href="#top"><i class="fas fa-arrow-up"></i> Back to Top</a> <!-- Back to top link -->
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        
+        const backToTopButton = document.getElementById('backToTop');
+        const missionSection = document.getElementById('mission');
+        const visionSection = document.getElementById('vision');
+
+        
+        function checkScrollPosition() {
+            const missionRect = missionSection.getBoundingClientRect();
+            const visionRect = visionSection.getBoundingClientRect();
+
+            
+            if (missionRect.top <= window.innerHeight && missionRect.bottom >= 0 || 
+                visionRect.top <= window.innerHeight && visionRect.bottom >= 0) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        }
+        window.addEventListener('scroll', checkScrollPosition);
+        checkScrollPosition();
+    </script>
+
+</body>
+</html>

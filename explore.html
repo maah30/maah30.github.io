@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNICIPALITY OF TANGCAL</title>
+    <link rel="stylesheet" href="explore_design.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- For Font Awesome Icons -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> | BACK </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1> TOP THREE TOURIST SPOT OF MUNICIPALITY OF TANGCAL </h1>
+        
+        <section class="lindongan">
+            <h2> LINDONGAN RIVER </h2>
+            <img src="lindongan.jpg" alt="River Image" class="river-image">
+            <p> The Lindongan River is a breathtaking natural wonder, boasting crystal-clear waters <br> that gently flow through a lush,  emerald-green landscape. The river's serene ambiance <br>  is enhanced by the warm, golden sunlight filtering through the canopy above,  <br> casting a mesmerizing dance  of light and shadow on its tranquil surface.</p>
+        </section>
+
+        <section class="kendis">
+            <h2> KENDIS RIVER </h2>
+
+            <img src="kendis.jpg" alt="River Image" class="river-image">
+            <p> it is called Kendis river which is found in tangcal lanao del norte between two barangays <br> PROPER, to barangay BERUAR
+                The crystal clear water of the river flows smoothly <br> over a bed of rounded stones and boulders.
+                Smooth, jagged rocks and jagged rocks <br> line the bottom of the river, creating a gentle current.</p>
+        </section>
+
+        <section class="kalibugan">
+            <h2> KALIBUGAN FALLS </h2>
+            <img src="kalibugan.jpg" alt="River Image" class="river-image">
+            <p> Kalibugan falls known for its refreshing waters and verdant sorroundings. Nature lovers <br> can also explore Tangcal River, a perfect spot for river trekking  and immersing oneself <br>  in the serenity of the sourrounding landscapes.</p>
+        </section>
+
+        <footer>
+            <div class="back-to-home" id="backToTop" style="display:none;">
+                <a href="#top"><i class="fas fa-arrow-up"></i> Back to Top</a> <!-- Back to top link -->
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        const backToTopButton = document.getElementById('backToTop');
+
+        function checkScrollPosition() {
+            if (window.scrollY > 200) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        }
+        window.addEventListener('scroll', checkScrollPosition);
+        checkScrollPosition();
+    </script>
+</body>
+</html>

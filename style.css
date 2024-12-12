@@ -1,0 +1,262 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.3;
+    background-color: #e9e3e3;
+    color: #333;
+}
+
+h1, h6 
+{
+    text-align: left;  /* Aligns text to the left */
+    margin-left: 700px ;    /* Ensures there's no unwanted left margin */
+    margin-top: 55px;
+}
+
+
+.municipality-image 
+{
+    width: 50%; /* Adjust the image width */
+    max-width: 900px; /* Optional: Limit the width */
+    margin-top: 80px; /* Remove margins */
+    float: left; /* Float the image to the left */
+    display: block; /* Ensure the image behaves as a block element */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+
+header 
+{
+    background-color: #3e9b4e; 
+    color: #fff;
+    padding: 25px 0;
+    text-align: right;
+    background-image: url('logo_orig.jpeg'); 
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+header nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li 
+{
+    display: inline ;
+    margin: 0 20px;
+}
+
+header nav ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+header nav ul li a:hover 
+{
+    text-decoration: dashed;  
+    background-color: #374850; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+     
+}
+
+
+main 
+{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(110, 98, 58);
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro p 
+{
+    font-size: 1.2em;
+    color: #666;
+}
+
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .intro h1 {
+        font-size: 2em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+}
+
+
+.mission-vision 
+{
+    margin-left: 1160px;
+}
+
+.mission-vision p 
+{
+    display: inline;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 15px 0;
+    
+}
+
+.mission-vision a 
+{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mission-vision a:hover 
+{
+    color: #286d8d;
+    text-decoration: underline;
+}
+
+.mission-vision a i 
+{
+    margin-left: 8px; 
+    font-size: 20px; 
+}
+
+
+.section 
+{
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #929160;  
+    background-image: url(logooo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 480px;
+    border: 1px solid #535050;
+    margin-bottom: 20px;  
+
+}
+
+h2 
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: #d9e445;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p 
+{
+    font-weight: bold;
+    font-size: 22px;
+    color: #fffcfc;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+@media (max-width: 768px) 
+{
+    main 
+    {
+        padding: 20px;
+    }
+
+    .mission-vision p 
+    {
+        font-size: 1.2em;
+    }
+
+    .section 
+    {
+        padding: 20px;
+    }
+
+    h2 
+    {
+        font-size: 1.8em;
+    }
+
+    p 
+    {
+        font-size: 1em;
+    }
+}
+
+
+.back-to-home 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(153, 151, 151, 0.2);
+}
+
+.back-to-home:hover 
+{
+    background-color: #a5adb1;
+}
+
+.back-to-home i 
+{
+    margin-right: 8px;
+}
+
+#exploreButton 
+{
+    padding: 6px 5px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #328d2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+
+}
+
+#exploreButton:hover 
+{
+    background-color: #7eb15d;
+}
+
+

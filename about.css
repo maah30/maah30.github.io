@@ -1,0 +1,108 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Header Styles */
+
+header 
+{
+    background-color: #3e9b4e; 
+    color: #fff;
+    padding: 25px 0;
+    text-align: right;
+    background-image: url('logo_orig.jpeg'); 
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+header nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li 
+{
+    display: inline ;
+    margin: 0 20px;
+}
+
+header nav ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+header nav ul li a:hover 
+{
+    text-decoration: dashed;  
+    background-color: #374850; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+     
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+
+/* History of Municipality of Tangcal Styles */
+
+.history-of-municipality-of-tangcal 
+{
+    margin-top: 20px;
+}
+
+.history-of-municipality-of-tangcal h2 
+{
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(126, 105, 37);
+}
+
+.history-of-municipality-of-tangcal p 
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(39, 102, 23);
+}
